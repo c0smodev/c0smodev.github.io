@@ -108,6 +108,7 @@ body
 
 button, .button
 {
+	text-decoration: none;
 	padding-left: 25px;
 	padding-right: 25px;
 	line-height: calc(50px + 0.5em);
@@ -124,6 +125,7 @@ button, .button
 	background-color: var(--light);
 	text-align: center;
 	transition-duration: 500ms;
+	padding-bottom: 7px;
 }
 
 button:hover, .button:hover
@@ -182,7 +184,7 @@ details
 	color: var(--dark);
 }
 
-a:not(button)
+a:not(.button)
 {
 	text-decoration: none;
 	background-position: 50% 100%;
@@ -195,7 +197,7 @@ a:not(button)
 	padding-bottom: 7px;
 }
 
-a:not(button):hover
+a:not(.button):hover
 {
 	letter-spacing: 2px;
 	background-size: 100% 2px;
